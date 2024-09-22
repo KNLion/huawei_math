@@ -6,6 +6,15 @@ __pycache__/
 # C extensions
 *.so
 
+
+# 忽略所有 .idea 文件夹，这是 IntelliJ IDEA 的项目配置文件夹
+.idea/
+
+# 忽略所有 .vscode 文件夹，这是 Visual Studio Code 的项目配置文件夹
+.vscode/
+# 忽略其他文件
+.other
+
 # Distribution / packaging
 .Python
 build/
